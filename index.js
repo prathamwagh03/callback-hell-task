@@ -208,7 +208,7 @@ let app = {
  */
 function getData(data, cb) {
   // Fetches consumer config params
-	var configparamarray = app.models.Consumer.configparamarray;
+	var configparamarray = app.models.Consumer.configparamarray
 
   // Assigns default object incase data is null or undefined
   data = data || {}

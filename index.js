@@ -210,7 +210,7 @@ function getData(data, cb) {
   // Fetches consumer config params
 	var configparamarray = app.models.Consumer.configparamarray;
 
-  // Assigns default object incase data is null or undefined with git password
+  // Assigns default object incase data is null or undefined
   data = data || {}
 
   // Checks if any Issues param is received. If not then default IssueText as Other is assigned
